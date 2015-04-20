@@ -325,7 +325,7 @@ function calcularSeparatrizIntervalar( $dados, $k ) {
     $li = $intervalar[$i]['li'];
     $faa = $intervalar[$i-1]['fai'];
     $fi = $intervalar[$i]['fi'];
-    $h1 = $intervalar[$i]['ls'] - $li;
+    $hi = $intervalar[$i]['ls'] - $li;
      
     $separatriz = $li + ((((($k * $qtd) / 100) - $faa) / $fi)) * $hi;
     $separatriz = "Separatriz = $li + ((((($k * $qtd) / 100) - $faa) / $fi)) * $hi = $separatriz";
